@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <script src="events.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163918833-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-163918833-1');
+    </script>
+
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-7415196926375092",
+        enable_page_level_ads: true
+      });
+    </script>
+
+    <title>Woody's Games</title>
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark">
+        <a href="https://woodysgames.com/" class="navbar-brand d-flex align-items-center">
+          <img src="src/Components/Logo.png" width="40" height="40" class="mr-2"></img>
+          <strong>Woody's Games</strong>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="menuClick()">
+          <img id="menu-expand" src="src/Components/Menu Expand.png" width=25px height=25px></img>
+          <img id="menu-collapse" src="src/Components/Menu Collapse.png" style="display: none;" width=25px height=25px></img>
+        </button>
+      
+        <div class="p-2 collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="p-2 nav-link">Games <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a href="blogs-1.html" class="p-2 nav-link active">Blogs</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="p-2 nav-link">About</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="p-2 text-center" width=80%>
+      <h4>Inspiration of Sky Mirror · Strolling</h4>
+    </div>
+
+    <div class="p-2 text-left" width=80%>
+      <img src="src/Blogs/1/Opening Scene.gif" class="p-2" width=100%></img>
+      
+      <p class="p-2">The largest salt flat — Uyuni salt flat in Bolivia is well known for its heaven-like scenery, which inspired me to develop a game based on this place. It is so amazing and worth everyone to visit and appreciate, and that becomes the main reason why I made Sky Mirror · Strolling.</p>
+      
+      <p class="p-2">Based on my knowledge, relaxing game or casual game would be the suitable game genre. It would be good if the game mechanics can let players release their pressure and relax in this place. Those kind of game mechanics fit this theme the most. Then I started to think about the game content. What makes people feel relaxed ? For this place, apparently there is a keyword “mirror”. A game relative to mirror still fits the concept, but it hardly says that mirrors are playable. Players play with mirrors in this game ? I still need more details to support the game concept. What are mirrors used for ? Reflecting something. Later a special idea came up to my mind: mirrors reflect energy as well, and the word “energy” reminded me of two reverse elements: positive energy and negative energy. This kind of topic hasn’t been widely applied in video games, why not make good use of them ?</p>
+      <p class="p-2">There is gold coin collecting in many other games. However, there are two reasons that I don’t implement it in this game: 1. A large amount of coins floating on sky mirror is so strange, that looks materialism. Where do these coins come from and why do players need to collect coins in this place ? I couldn’t give reasonable explanation. 2. I want to be creative, and I just thought of positive energy and negative energy, it is good enough to let players collect positive energy instead of coins. According to the features of this place, the environment should be made completely safe to maintain its peaceful atmosphere, but a completely safe area doesn’t look fun and challenging, then negative energy reasonably becomes the obstacles. Getting hurt doesn’t make people feel positive, so there is no health value in this game. The character will never get hurt, instead, her amount of positive energy will decrease when she touches negative energy.</p>
+
+      <img src="src/Blogs/1/Static Negative Energy Obstacles.png" class="p-2" width=100%></img>
+
+      <p class="p-2">Both positive energy and negative energy are invisible, so it is important to visualize and make them recognizable. I have the habit of making good use of minimalist, so I kept these two elements simple by using a plus sign and minus sign to represent them. Orange belongs to warm colours while purple belongs to cool colours.</p>
+
+      <img src="src/Blogs/1/Dynamic Negative Energy Obstacles.png" class="p-2" width=100%></img>
+      <img src="src/Blogs/1/Moveable Platform.png" class="p-2" width=100%></img>
+
+      <p class="p-2">There is some machine-like design, the character can trigger some moveable machine arms. Using realistic machines does not fit the environment, therefore, I used abstract objects to represent them.</p>
+
+      <img src="src/Blogs/1/Constellation Puzzle Solving.png" class="p-2" width=100%></img>
+      <img src="src/Blogs/1/Teleport.png" class="p-2" width=100%></img>
+
+      <p class="p-2">Based on the atmosphere of sky mirror, gameplay should be less intensive. Puzzle game was the category that I wanted to try, but pure puzzle game doesn’t seem like refreshing, because it keeps players thinking when solving puzzles. Therefore, I planned to keep the puzzles lightweight and at the same time, introduce some action and adventure content. Teleporting would be a good option.</p>
+
+      <img src="src/Blogs/1/Character Pathfinding.png" class="p-2" width=100%></img>
+
+      <p class="p-2">Overall, the above features are form the gameplay of Mirror of Introspection(There are many mirrors in the scene, each mirror represents an entrance). Basically it contains two main gameplays: 1. Action-based gameplay, which is comparatively fast-paced, including teleporting mechanic, dynamic negative energy obstacles and time limit. 2. Puzzle gameplay, which will slow down the game procedure and let players think, including simple switch mechanic and constellation puzzle solving.</p>
+
+      <img src="src/Blogs/1/Mirroring.png" class="p-2" width=100%></img>
+      <img src="src/Blogs/1/Rotatable Ladder.png" class="p-2" width=100%></img>
+
+      <p class="p-2">Another interesting feature is mirroring: The virtual image in the mirror is reverse. When an object turns left, its virtual image will turn right. When the character’s virtual image touches negative energy, the character herself will lose positive energy as well. This game mechanic is robust enough and no concern of running out of content. Different kinds of obstacles and paths can form into lots of different combinations, which makes designing a large amount of levels easier.
+        This game is not finished yet, new game mechanics and game levels will be introduced soon. I hope this game will evolve better and better.</p>
+    </div>
+    
+
+    <div class="p-2 text-left" width=80%>
+      <img src="src/About/Logo Image.png" class="p-2" width=100%></img>
+
+      <p class="p-2">Welcome to Woody’s Games studio. We are an indie game studio based in Montréal, Canada.</p>
+      <p class="p-2">Our goal is to create relaxing games and educational games.</p>
+      <p class="p-2">Thank you for your support!</p>
+    </div>
+      
+    
+    <footer class="bg-dark text-white">
+      <div class="p-2 container">
+        <div class="row">
+          <div class="col">
+          <a href="https://www.facebook.com/Woodys-Games-1878099805830404/">
+            <img src="src/Social Media/Facebook.png" width="35" height="35"></img>
+          </a>
+          <a href="https://twitter.com/gamesofwoody?lang=en">
+            <img src="src/Social Media/Twitter.png" width="35" height="35"></img>
+          </a>
+          <a href="https://www.instagram.com/woodys.games/">
+            <img src="src/Social Media/Instagram.png" width="35" height="35"></img>
+          </a>
+          <a href="https://www.youtube.com/channel/UCrqvyyIjdzZ-7dfeXsyIBxw">
+            <img src="src/Social Media/Youtube.png" width="35" height="35"></img>
+          </a>
+          <a href="https://www.pinterest.ca/gameofwoody/">
+            <img src="src/Social Media/Pinterest.png" width="35" height="35"></img>
+          </a>
+        </div>
+      </div>
+
+      <div class="p-2">Copyright © Woody's Games Inc. 2020</div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
