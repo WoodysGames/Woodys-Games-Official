@@ -1,0 +1,25 @@
+/* Extra small devices (portrait phones, larger than 576px) */
+@media (min-width: 575.98px) {
+  
+}
+
+/* Small devices (landscape phones, larger than 768px) */
+@media (min-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, larger than 992px) */
+@media (min-width: 991.98px) {
+  .article { 
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+/* Large devices (desktops, larger than 1200px) */
+@media (min-width: 1199.98px) {
+  .article { 
+    margin-left: 24%;
+    margin-right: 24%;
+  }
+}
