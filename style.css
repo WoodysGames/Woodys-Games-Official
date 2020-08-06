@@ -10,6 +10,13 @@
 
 /* Medium devices (tablets, larger than 992px) */
 @media (min-width: 991.98px) {
+  .gallery{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
   .article { 
     margin-left: 15%;
     margin-right: 15%;
@@ -18,6 +25,13 @@
 
 /* Large devices (desktops, larger than 1200px) */
 @media (min-width: 1199.98px) {
+  .gallery{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
   .article { 
     margin-left: 24%;
     margin-right: 24%;
