@@ -1,3 +1,7 @@
+html, body {
+  overflow-x: hidden;
+}
+
 /* Extra small devices (portrait phones, larger than 576px) */
 @media (min-width: 575.98px) {
   
