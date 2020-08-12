@@ -9,7 +9,10 @@ html, body {
 
 /* Small devices (landscape phones, larger than 768px) */
 @media (min-width: 767.98px) {
-
+  .embed-responsive{
+    width: 40%;
+    margin-left: 30%;
+  }
 }
 
 /* Medium devices (tablets, larger than 992px) */
