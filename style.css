@@ -24,6 +24,11 @@ html, body {
     margin-right: 15%;
   }
 
+  .center-div{
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
   .article { 
     margin-left: 15%;
     margin-right: 15%;
@@ -39,6 +44,11 @@ html, body {
     margin-right: 20%;
   }
   
+  .center-div{
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
   .article { 
     margin-left: 24%;
     margin-right: 24%;
